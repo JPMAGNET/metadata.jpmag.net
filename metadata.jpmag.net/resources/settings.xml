@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="32001">
+        <setting label="32011" type="text"   id="user_id" default=""/>
+        <setting label="32012" type="text"   id="password" option="hidden" enable="!eq(-1,)" default=""/>
+        <setting label="30002" type="select" values="ko|ja|en" id="language" default="ko"/>
+        <setting label="32013" type="bool"   id="only_title" default="false"/>
+    </category>
+    <setting id="debug" type="bool" label="32013" default="true"/>
+    <setting label="30005" type="bool" id="keeporiginaltitle" default="false"/>
+    <setting label="30000" type="bool" id="fanart" default="true"/>
+    <setting label="30004" type="bool" id="trailer" default="true"/>
+    <setting label="30002" type="select" values="ko|ja|en" id="language" default="ko"/>
+    <setting label="30006" type="select" values="kr|jp|us" id="certcountry" default="kr"/>
+    <setting label="30003" type="labelenum" values="JPmag|IMDb" id="RatingS" default="JPmag"/>
+    <setting label="certprefix" type="text" id="certprefix" default="Rated " visible="false"/>
+</settings>
